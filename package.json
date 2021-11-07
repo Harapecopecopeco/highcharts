@@ -1,0 +1,20 @@
+{
+  "name": "highcharts",
+  "version": "1.0.0",
+  "description": "## How to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Harapecopecopeco/highcharts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harapecopecopeco/highcharts/issues"
+  },
+  "homepage": "https://github.com/Harapecopecopeco/highcharts#readme"
+}
