@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Highcharts from "highcharts"
 
 import HighchartsReact from "highcharts-react-official";
@@ -16,16 +16,16 @@ const options = {
     }]
 }
 
-function App() {
+const App = (props: HighchartsReact.Props) => {
+    const chartComponentRef = useRef<HighchartsReact.RefObject>(null);
+
     return (
-        <div>
-            <div className="App">
-                <HighchartsReact
-                    highcharts={Highcharts}
-                    options={options}/>
-            </div>
-        </div>
-    );
+        <HighchartsReact
+            highcharts={Highcharts}
+            options={options}
+            ref={chartComponentRef}
+            {...props}/>
+    )
 }
 
 export default App;
