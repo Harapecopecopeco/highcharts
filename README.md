@@ -1,8 +1,8 @@
 # HighCharts & React & TypeScript
 
-![](../../../../../Pictures/Screenshot from 2021-11-07 22-41-26.png)
+![](./top_image.png)
 
-## How to 
+## How to
 
 ### Setup
 
